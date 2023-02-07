@@ -9,7 +9,9 @@
     "paths": {
       "@@/*": [".dumi/tmp/*"],
       "dumi-demo": ["src"],
-      "dumi-demo/*": ["src/*", "*"]
+      "dumi-demo/*": ["src/*", "*"],
+      "@dumi-demo/button": ["./packages/button/src/index.tsx"],
+      "@dumi-demo/tag": ["./packages/tag/src/index.tsx"]
     }
   },
   "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]

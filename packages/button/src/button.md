@@ -1,4 +1,4 @@
-# Foo
+# Button
 
 This is an example component.
 
@@ -7,7 +7,7 @@ This is an example component.
  * title: hahah
  * description: 这是简介
  */
-import { Foo } from 'dumi-demo';
+import { Button } from 'dumi-demo';
 
-export default () => <Foo title="Hello dumi!" />;
+export default () => <Button name="Hello dumi!" />;
 ```
