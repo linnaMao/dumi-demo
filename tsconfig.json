@@ -1,33 +1,18 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
-    "moduleResolution": "node",
-    "importHelpers": true,
-    "jsx": "react",
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
     "esModuleInterop": true,
-    "sourceMap": true,
-    "removeComments": true,
+    "jsx": "react",
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"],
-      "@@/*": ["src/.umi/*"],
-      "@dumi-demo/button": ["./packages/button/src/index.tsx"],
-      "@dumi-demo/tag": ["./packages/tag/src/index.tsx"]
-    },
-    "allowSyntheticDefaultImports": true
+      "@@/*": [".dumi/tmp/*"],
+      "packages": ["src"],
+      "packages/*": ["src/*", "*"],
+      "@pro-demo/button": ["./packages/button/src/index.tsx"],
+      "@pro-demo/tag": ["./packages/tag/src/index.tsx"]
+    }
   },
-  "exclude": [
-    "node_modules",
-    "lib",
-    "es",
-    "dist",
-    "typings",
-    "**/__test__",
-    "test",
-    "docs",
-    "tests",
-    "**/demo",
-    "**/services"
-  ]
+  "include": [".dumi/**/*", ".dumirc.ts", "src/**/*"]
 }

@@ -1,22 +1,12 @@
 {
-  "name": "@dumi-demo/tag",
-  "version": "0.0.0",
+  "name": "@pro-demo/tag",
+  "version": "1.0.0",
+  "description": "",
   "keywords": [],
-  "license": "MIT",
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "types": "lib/index.d.ts",
-  "files": [
-    "lib",
-    "es",
-    "dist"
-  ],
-  "peerDependencies": {
-    "antd": "4.x",
-    "react": ">=16.9.0",
-    "react-dom": ">=16.9.0"
-  },
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

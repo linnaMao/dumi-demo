@@ -1,7 +1,7 @@
-# dumi-demo
+# demo
 
-[![NPM version](https://img.shields.io/npm/v/dumi-demo.svg?style=flat)](https://npmjs.org/package/dumi-demo)
-[![NPM downloads](http://img.shields.io/npm/dm/dumi-demo.svg?style=flat)](https://npmjs.org/package/dumi-demo)
+[![NPM version](https://img.shields.io/npm/v/demo.svg?style=flat)](https://npmjs.org/package/demo)
+[![NPM downloads](http://img.shields.io/npm/dm/demo.svg?style=flat)](https://npmjs.org/package/demo)
 
 A react library developed with dumi
 

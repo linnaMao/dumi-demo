@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Demo = ({ name }) => {
-  return <h1>{name}</h1>;
+const Tag = ({ name }) => {
+  return <div>{name}</div>;
 };
 
-export default Demo;
+export default Tag;

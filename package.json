@@ -1,16 +1,12 @@
 {
-  "name": "dumi-demo",
+  "name": "pro-demo",
   "version": "0.0.1",
   "description": "A react library developed with dumi",
   "license": "MIT",
-  "main": "src/index.ts",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
     "dist"
-  ],
-  "workspaces": [
-    "packages/*"
   ],
   "scripts": {
     "build": "father build",
@@ -23,7 +19,7 @@
     "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
     "prepare": "husky install && dumi setup",
     "prepublishOnly": "father doctor && npm run build",
-    "start": "npm run dev"
+    "start": "pnpm run dev"
   },
   "commitlint": {
     "extends": [
@@ -48,14 +44,14 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.4.2",
-    "@commitlint/config-conventional": "^17.4.2",
+    "@changesets/cli": "^2.26.0",
+    "@commitlint/cli": "^17.1.2",
+    "@commitlint/config-conventional": "^17.1.0",
     "@umijs/lint": "^4.0.0",
     "dumi": "^2.0.2",
     "eslint": "^8.23.0",
     "father": "^4.1.0",
     "husky": "^8.0.1",
-    "lerna": "^6.4.1",
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "prettier-plugin-organize-imports": "^3.0.0",
