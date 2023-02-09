@@ -33,11 +33,11 @@ export default defineConfig({
           children: [
             {
               title: 'button',
-              link: '/components/button',
+              link: '/button',
             },
             {
               title: 'tag',
-              link: '/components/tag',
+              link: '/tag',
             },
           ],
         },
