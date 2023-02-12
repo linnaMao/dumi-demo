@@ -36,6 +36,12 @@ importers:
       react-dom: 18.2.0_react@18.2.0
       stylelint: 14.16.1
 
+  packages/button:
+    specifiers:
+      '@pro-demo/button': workspace:^2.0.0
+    dependencies:
+      '@pro-demo/button': 'link:'
+
   packages/tag:
     specifiers:
       '@pro-demo/button': workspace:^2.0.0

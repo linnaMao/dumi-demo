@@ -9,7 +9,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "father build",
+    "build": "pnpm run -r build",
     "build:watch": "father dev",
     "changelog": "changeser version",
     "changeset": "changeset",
