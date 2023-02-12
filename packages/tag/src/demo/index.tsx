@@ -1,8 +1,8 @@
+import Button from '@pro-demo/button';
 import React from 'react';
-import Tag from '..';
 
 const Demo = () => {
-  return <Tag name="tag"></Tag>;
+  return <Button name="按钮"></Button>;
 };
 
 export default Demo;

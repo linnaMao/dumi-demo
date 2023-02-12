@@ -33,6 +33,12 @@ $ pnpm run docs:build
 
 # check your project for potential problems
 $ pnpm run doctor
+
+# 生成changeset
+$ npx changeset
+
+# 生成changelog
+$ npx changeset version
 ```
 
 ## LICENSE

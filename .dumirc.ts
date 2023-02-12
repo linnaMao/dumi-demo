@@ -17,14 +17,11 @@ const tailPkgList = pkgList.map((path) => `packages/${path}/src`);
 export default defineConfig({
   alias,
   resolve: {
-    docDirs: ['docs', ...tailPkgList],
+    docDirs: tailPkgList,
   },
   themeConfig: {
     nav: {
-      'zh-CN': [
-        { title: '文档', link: '/docs' },
-        { title: '组件', link: '/components' },
-      ],
+      'zh-CN': [{ title: '组件', link: '/components' }],
     },
     sidebar: {
       '/components': [
@@ -33,11 +30,11 @@ export default defineConfig({
           children: [
             {
               title: 'button',
-              link: '/button',
+              link: '/components/button',
             },
             {
               title: 'tag',
-              link: '/tag',
+              link: '/components/tag',
             },
           ],
         },
