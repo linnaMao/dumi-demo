@@ -10,8 +10,8 @@
       "@@/*": [".dumi/tmp/*"],
       "packages": ["src"],
       "packages/*": ["src/*", "*"],
-      "@pro-demo/button": ["./packages/button/src/index.tsx"],
-      "@pro-demo/tag": ["./packages/tag/src/index.tsx"]
+      "pro-demo-button": ["./packages/button/src/index.tsx"],
+      "pro-demo-tag": ["./packages/tag/src/index.tsx"]
     }
   },
   "include": [".dumi/**/*", ".dumirc.ts", "src/**/*", "typings.d.ts"]

@@ -1,6 +1,6 @@
 {
-  "name": "@pro-demo/tag",
-  "version": "2.0.0",
+  "name": "pro-demo-tag",
+  "version": "1.0.2",
   "description": "",
   "keywords": [],
   "license": "ISC",
@@ -10,6 +10,9 @@
     "build": "father build"
   },
   "dependencies": {
-    "@pro-demo/button": "workspace:^2.0.0"
+    "pro-demo-button": "workspace:^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
