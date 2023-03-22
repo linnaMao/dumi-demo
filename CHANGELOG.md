@@ -12,6 +12,7 @@
 
 ### Features
 
+* ✨修改测试 ([c678f4a](https://github.com/linnaMao/dumi-demo/commit/c678f4a1a181383e64b0cc21ccdcd5e63d240c69))
 * 修改 ([18377b6](https://github.com/linnaMao/dumi-demo/commit/18377b6ec970391be4c3585137c225b4b124eb2e))
 * 修改 ([7ad5033](https://github.com/linnaMao/dumi-demo/commit/7ad50338cb58d93ae7ebfef73237c9079655a7b3))
 * 修改 ([e8d0d5a](https://github.com/linnaMao/dumi-demo/commit/e8d0d5ad07b479999449465dad17b91531f80673))
