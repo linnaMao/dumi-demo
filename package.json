@@ -10,17 +10,6 @@
   ],
   "scripts": {
     "build": "pnpm run -r build",
-    "build:watch": "father dev",
-    "changelog": "changeser version",
-    "changeset": "changeset",
-    "dev": "dumi dev",
-    "docs:build": "dumi build",
-    "doctor": "father doctor",
-    "lint": "npm run lint:es && npm run lint:css",
-    "lint:css": "stylelint \"{src,test}/**/*.{css,less}\"",
-    "lint:es": "eslint \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
-    "prepare": "husky install && dumi setup",
-    "prepublishOnly": "father doctor && npm run build",
     "start": "pnpm run dev"
   },
   "commitlint": {
