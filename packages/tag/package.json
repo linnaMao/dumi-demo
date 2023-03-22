@@ -1,5 +1,5 @@
 {
-  "name": "pro-demo-tag",
+  "name": "@firesoon/tag",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -10,7 +10,7 @@
     "build": "father build"
   },
   "dependencies": {
-    "pro-demo-button": "workspace:^1.0.0"
+    "@firesoon/button": "workspace:^1.0.0"
   },
   "publishConfig": {
     "access": "public"
