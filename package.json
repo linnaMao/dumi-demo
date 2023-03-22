@@ -10,7 +10,8 @@
   ],
   "scripts": {
     "build": "pnpm run -r build",
-    "start": "pnpm run dev"
+    "start": "pnpm run dev",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --release-count 0 -u -l emoji"
   },
   "commitlint": {
     "extends": [
@@ -41,6 +42,7 @@
     "@umijs/lint": "^4.0.0",
     "conventional-changelog": "^3.1.25",
     "conventional-changelog-cli": "^2.2.2",
+    "conventional-changelog-emoji": "^0.3.3",
     "dumi": "^2.0.2",
     "eslint": "^8.23.0",
     "father": "^4.1.0",
